@@ -48,4 +48,5 @@ class Tailoredmail_Report_Model_Abandonedcart_Api extends Mage_Api_Model_Resourc
 		}
 		return json_encode($new_return);
     }
+	
 }

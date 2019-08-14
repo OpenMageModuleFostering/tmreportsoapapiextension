@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>TmReportSOAPAPIExtension</name>
-    <version>1.0.1</version>
+    <version>1.0.3</version>
     <stability>stable</stability>
     <license>Open Source V3.0</license>
     <channel>community</channel>
     <extends/>
     <summary>This is a SOAP extension for abandoned reports.</summary>
     <description>This is a SOAP extension for abandoned reports.</description>
-    <notes>This is a SOAP extension for abandoned reports.</notes>
+    <notes>This is a SOAP extension for abandoned reports. This will get all details required for sending mails from TM.</notes>
     <authors><author><name>Arindam</name><user>arindamnayak</user><email>arindam@tailoredmail.com</email></author></authors>
-    <date>2014-05-23</date>
-    <time>11:59:49</time>
-    <contents><target name="magelocal"><dir name="Tailoredmail"><dir name="Report"><dir name="Model"><dir name="Abandonedcart"><file name="Api.php" hash="1647f89e56780f9eba34492cdf33129e"/></dir></dir><dir name="etc"><file name="api.xml" hash="3d2a5da34f333e81279e11cb6c5b7693"/><file name="config.xml" hash="8a1bb498d59e401a577e16f8878efa57"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Tailoredmail_Report.xml" hash="4843aba2cbaa7d95dfbe2415dd4b4166"/></dir></target></contents>
+    <date>2014-07-15</date>
+    <time>07:19:25</time>
+    <contents><target name="magelocal"><dir name="Tailoredmail"><dir name="Report"><dir name="Model"><dir name="Abandonedcart"><file name="Api.php" hash="a30544fcc33991e581a227366a9f6fbc"/></dir></dir><dir name="etc"><file name="api.xml" hash="3d2a5da34f333e81279e11cb6c5b7693"/><file name="config.xml" hash="8a1bb498d59e401a577e16f8878efa57"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Tailoredmail_Report.xml" hash="4843aba2cbaa7d95dfbe2415dd4b4166"/></dir></target><target name="mage"><dir name="includes"><dir name="src"><file name="Tailoredmail_Report_Model_Abandonedcart_Api.php" hash="f91e96821f5e6bb227f6ee3cff0ee826"/></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
