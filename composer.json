@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/TmReportSOAPAPIExtension",
+    "type": "magento-module",
+    "license": "Open-Source-V3.0",
+    "homepage": "",
+    "description": "This is a SOAP extension for abandoned reports.",
+    "authors": [
+    {
+        "name": "Arindam",
+        "email": "arindam@tailoredmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

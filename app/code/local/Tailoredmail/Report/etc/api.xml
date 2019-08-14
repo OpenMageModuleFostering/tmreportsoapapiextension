@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <api>
+        <resources>
+            <reports translate="title" module="tailoredmail_report">
+            <title>Title Of My Resource</title>
+            <model>report/abandonedcart_api</model>
+            <methods>
+                <getabandonedcarts translate="title" module="tailoredmail_report">
+                    <title>Title Of My Method</title>
+                </getabandonedcarts>
+            </methods>
+            </reports>
+        </resources>
+    </api>
+</config>
